@@ -11,5 +11,8 @@ public class Main {
         Person person = new Person();
 
         System.out.println(person.getNavn() + " " + person.getHvadPersonHarGlemt());
+
+        System.out.println("Prut");
+
     }
 }

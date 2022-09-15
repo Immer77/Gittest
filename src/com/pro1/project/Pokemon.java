@@ -6,7 +6,7 @@ public class Pokemon {
 
     public Pokemon (String navn) {
         this.navn = navn;
-        this.lyd = navn + "ah";
+        this.lyd = navn + navn.substring(navn.length()-3, navn.length());
     }
 
     public void givLyd () {
