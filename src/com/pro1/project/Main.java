@@ -22,5 +22,7 @@ public class Main {
         System.out.println(k1.getAlder());
         System.out.println(k1.getName());
         k1.setName("Noob");
+
+        System.out.println("Peters branch created");
     }
 }
