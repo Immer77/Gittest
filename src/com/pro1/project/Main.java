@@ -6,7 +6,8 @@ public class Main {
         System.out.println("Hello World");
 
         Pokemon oddish = new Pokemon("Oddish");
-        oddish.givLyd();
+        oddish.makeSound();
+        oddish.doSomething();
 
 
         Person person = new Person();
@@ -14,8 +15,6 @@ public class Main {
         System.out.println(person.getNavn() + " " + person.getHvadPersonHarGlemt());
 
         System.out.println("Prut");
-
-        oddish.givLyd();
 
         Kunde k1 = new Kunde("Anujan ",22);
         System.out.println(k1);
