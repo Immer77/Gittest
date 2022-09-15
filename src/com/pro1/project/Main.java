@@ -19,5 +19,8 @@ public class Main {
 
         Kunde k1 = new Kunde("Anujan ",22);
         System.out.println(k1);
+        k1.setAlder(200);
+        System.out.println(k1.getAlder());
+        System.out.println(k1.getName());
     }
 }
