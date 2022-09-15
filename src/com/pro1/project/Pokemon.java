@@ -11,6 +11,7 @@ public class Pokemon {
 
     public void givLyd () {
         System.out.println(lyd);
+        System.out.println("**Snuggles closer to you**");
     }
 
 }
