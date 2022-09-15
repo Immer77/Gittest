@@ -8,6 +8,7 @@ public class Main {
         Pokemon oddish = new Pokemon("Oddish");
         oddish.givLyd();
 
+
         Person person = new Person();
 
         System.out.println(person.getNavn() + " " + person.getHvadPersonHarGlemt());
