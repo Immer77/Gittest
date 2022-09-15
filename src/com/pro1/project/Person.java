@@ -6,7 +6,7 @@ public class Person {
 
     public Person(){
         this.navn = "Peter";
-        this.hvadPersonHarGlemt = "At tilføje person klassen til repo";
+        this.hvadPersonHarGlemt = "glemte at tilføje person klassen til repo";
     }
 
     public String getNavn() {
