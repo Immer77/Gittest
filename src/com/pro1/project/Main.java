@@ -6,7 +6,8 @@ public class Main {
         System.out.println("Hello World");
 
         Pokemon oddish = new Pokemon("Oddish");
-        oddish.givLyd();
+        oddish.makeSound();
+        oddish.doSomething();
 
 
         Person person = new Person();
