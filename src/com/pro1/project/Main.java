@@ -7,6 +7,9 @@ public class Main {
 
         Pokemon oddish = new Pokemon("Oddish");
         oddish.givLyd();
+
+        System.out.println("Prut");
+
         oddish.givLyd();
     }
 }
