@@ -16,4 +16,9 @@ public class Person {
     public String getHvadPersonHarGlemt() {
         return hvadPersonHarGlemt;
     }
+
+    @Override
+    public String toString() {
+        return getNavn() + " " + getHvadPersonHarGlemt();
+    }
 }
