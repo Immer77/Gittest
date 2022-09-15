@@ -16,5 +16,8 @@ public class Main {
         System.out.println("Prut");
 
         oddish.givLyd();
+
+        Kunde k1 = new Kunde("Anujan ",22);
+        System.out.println(k1);
     }
 }
